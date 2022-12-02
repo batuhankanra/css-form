@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nerko One', cursive;
+}
+.container{
+    width: 50%;
+    background-color: #EFE7CC;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+/* form*/
+input,select{
+    width: 100%;
+    border: 1px solid #fff;
+   
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+input{
+    transition: width;
+}
+input:focus{
+    border :3px solid #555;
+    
+}
+.btn{
+    background-color: #93BFA3;
+    border: 0px;
+    color: #fff;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: #d8f881;
+}
+label{
+    font-size: 1.2rem;
+    
+}
